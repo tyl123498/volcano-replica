@@ -214,9 +214,10 @@ npm run deploy
 | --- | --- |
 | 本地项目 | `D:\火山界面复刻` |
 | Cloudflare Pages 项目 | `volcano-replica` |
+| GitHub 模板仓库 | https://github.com/tyl123498/volcano-replica（私有模板） |
 | 线上地址 | https://volcano-replica.pages.dev/ |
 | 自定义域名 | `tyl2026.xyz`（DNS 生效中） |
 | 常用部署命令 | `npm run deploy` |
 | Cloudflare 授权 | 已保存在本机，无需重复登录 |
 
-后续新项目只需复制本目录，改品牌数据、页面内容、项目名和域名，即可快速上线一套新的 SaaS 落地页。
+后续新项目可以直接在 GitHub 上点 “Use this template” 创建，或复制本目录，然后改品牌数据、页面内容、项目名和域名，即可快速上线一套新的 SaaS 落地页。

@@ -38,3 +38,13 @@ public/
 https://volcano-replica.pages.dev/
 
 详细交接文档见 [docs/SaaS落地页生产线交接文档.md](docs/SaaS落地页生产线交接文档.md)。
+
+## 从 GitHub 模板创建新项目
+
+1. 打开 https://github.com/tyl123498/volcano-replica
+2. 点 “Use this template” -> “Create a new repository”
+3. 克隆新仓库：`git clone <你的新仓库地址>`
+4. 进入项目执行 `npm install`
+5. 本地预览 `npm run dev`，发布上线 `npm run deploy`
+
+部署前记得把 `package.json` 里 `deploy` 脚本中的 `volcano-replica` 换成你自己的 Pages 项目名。
